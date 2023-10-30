@@ -1,0 +1,80 @@
+.slider-container {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width to fit your design */
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slider {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%; /* Maintain a 16:9 aspect ratio for the slider */
+  }
+  
+  .slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slider img.active {
+    opacity: 1;
+  }
+  
+  .slider-controls {
+    margin-top: 10px;
+  }
+  
+  .slider-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .slider-toggle {
+    margin-top: 10px;
+  }
+  
+  .slider-toggle label {
+    margin-right: 5px;
+  }
+  
+  .slider-toggle input {
+    vertical-align: middle;
+  }
+
+  
+
+
+
+
+
+
+
+  
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
